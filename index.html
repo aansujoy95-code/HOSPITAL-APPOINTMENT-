@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="SK HOSPITAL - Book an appointment with our specialist doctors.">
+  <title>SK HOSPITAL | Book an Appointment</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="SK HOSPITAL home">
+        <span class="brand-mark" aria-hidden="true">+</span>
+        <span>SK HOSPITAL</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="primary-nav">
+        <span></span><span></span><span></span>
+      </button>
+
+      <div class="nav-menu" id="primary-nav">
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#doctors">Doctors</a>
+        <a href="#appointment">Appointment</a>
+        <a class="nav-cta" href="#appointment">Book Appointment</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-glow hero-glow-one"></div>
+      <div class="hero-glow hero-glow-two"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <span class="eyebrow"><span class="eyebrow-dot"></span> YOUR HEALTH, OUR PRIORITY</span>
+          <h1>Care that puts <span>you first.</span></h1>
+          <p class="hero-text">Quality healthcare starts with the right team. Find a specialist, choose a convenient time, and request your appointment in just a few steps.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#appointment">Book an appointment <span>→</span></a>
+            <a class="btn btn-secondary" href="#doctors">Meet our doctors <span>→</span></a>
+          </div>
+          <div class="trust-row" aria-label="Hospital highlights">
+            <div><strong>Expert</strong><span>Care team</span></div>
+            <div><strong>Multiple</strong><span>Specialities</span></div>
+            <div><strong>Easy</strong><span>Appointment requests</span></div>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal">
+          <div class="medical-orbit orbit-one"></div>
+          <div class="medical-orbit orbit-two"></div>
+          <div class="medical-cross" aria-hidden="true">+</div>
+          <div class="doctor-illustration" aria-hidden="true">
+            <div class="doctor-head"></div>
+            <div class="doctor-body"></div>
+            <div class="doctor-coat"></div>
+            <div class="doctor-stethoscope"></div>
+          </div>
+          <div class="floating-card card-care"><span>♡</span><div><strong>Patient-first care.</strong><small>Compassion at every step</small></div></div>
+          <div class="floating-card card-health"><span>✓</span><div><strong>Here for your health.</strong><small>Trusted support, made simple</small></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section services-section" id="services">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="eyebrow">OUR SERVICES</span>
+          <h2>Our healthcare services.</h2>
+          <p>Support for everyday health needs, delivered with care and attention.</p>
+        </div>
+        <div class="services-grid">
+          <article class="service-card reveal"><div class="service-icon">🫀</div><h3>Cardiology</h3><p>Heart health consultations, assessments, and ongoing care.</p></article>
+          <article class="service-card reveal"><div class="service-icon">🧠</div><h3>Neurology</h3><p>Specialist support for brain, nerve, and neurological conditions.</p></article>
+          <article class="service-card reveal"><div class="service-icon">🦴</div><h3>Orthopedics</h3><p>Care for bones, joints, muscles, and mobility concerns.</p></article>
+          <article class="service-card reveal"><div class="service-icon">👶</div><h3>Pediatrics</h3><p>Healthcare and wellness support for infants and children.</p></article>
+          <article class="service-card reveal"><div class="service-icon">🩺</div><h3>General Medicine</h3><p>Primary care, routine checkups, and general consultations.</p></article>
+          <article class="service-card reveal"><div class="service-icon">🦷</div><h3>Dental Care</h3><p>Preventive dental checkups and oral health consultations.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section doctors-section" id="doctors">
+      <div class="container">
+        <div class="section-heading doctors-heading reveal">
+          <div><span class="eyebrow">OUR SPECIALISTS</span><h2>Meet our doctors.</h2></div>
+          <p>Select a specialist when requesting your appointment.</p>
+        </div>
+        <div class="doctors-grid">
+          <article class="doctor-card reveal" data-doctor="Dr.N.Siddiq">
+            <div class="doctor-avatar"><span>Dr</span></div><div class="doctor-info">
+              <h3>Dr.N.Siddiq</h3><span class="speciality">Cardiologist</span><p>Heart health and preventive cardiology.</p>
+              <button class="choose-doctor" type="button" data-doctor="Dr.N.Siddiq">Choose Doctor <span>→</span></button>
+            </div>
+          </article>
+          <article class="doctor-card reveal" data-doctor="Dr.Rubeeha Taj">
+            <div class="doctor-avatar"><span>Dr</span></div><div class="doctor-info">
+              <h3>Dr.Rubeeha Taj</h3><span class="speciality">Pediatrician</span><p>Child health, development, and wellness.</p>
+              <button class="choose-doctor" type="button" data-doctor="Dr.Rubeeha Taj">Choose Doctor <span>→</span></button>
+            </div>
+          </article>
+          <article class="doctor-card reveal" data-doctor="Dr.Jaheda Begum">
+            <div class="doctor-avatar"><span>Dr</span></div><div class="doctor-info">
+              <h3>Dr.Jaheda Begum</h3><span class="speciality">Orthopedic Specialist</span><p>Bone, joint, and mobility care.</p>
+              <button class="choose-doctor" type="button" data-doctor="Dr.Jaheda Begum">Choose Doctor <span>→</span></button>
+            </div>
+          </article>
+          <article class="doctor-card reveal" data-doctor="Dr.Vidhya">
+            <div class="doctor-avatar"><span>Dr</span></div><div class="doctor-info">
+              <h3>Dr.Vidhya</h3><span class="speciality">Neurologist</span><p>Brain functions, health, neurons condition, and nerve health.</p>
+              <button class="choose-doctor" type="button" data-doctor="Dr.Vidhya">Choose Doctor <span>→</span></button>
+            </div>
+          </article>
+          <article class="doctor-card reveal" data-doctor="Dr.Manziya Khan">
+            <div class="doctor-avatar"><span>Dr</span></div><div class="doctor-info">
+              <h3>Dr.Manziya Khan</h3><span class="speciality">General Medicine</span><p>First aid centre, fever, headache, and body ache.</p>
+              <button class="choose-doctor" type="button" data-doctor="Dr.Manziya Khan">Choose Doctor <span>→</span></button>
+            </div>
+          </article>
+          <article class="doctor-card reveal" data-doctor="Dr.Umriya Khan">
+            <div class="doctor-avatar"><span>Dr</span></div><div class="doctor-info">
+              <h3>Dr.Umriya Khan</h3><span class="speciality">Dentist</span><p>Teeth health, tooth conditions, tooth replacement, and braces.</p>
+              <button class="choose-doctor" type="button" data-doctor="Dr.Umriya Khan">Choose Doctor <span>→</span></button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="appointment-section" id="appointment">
+      <div class="container appointment-grid">
+        <div class="appointment-copy reveal">
+          <span class="eyebrow">BOOK A VISIT</span>
+          <h2>Request your appointment.</h2>
+          <p>Complete the form and our reception team can contact you to confirm the appointment.</p>
+          <ul class="steps">
+            <li><span>01</span>Choose your preferred department and doctor.</li>
+            <li><span>02</span>Select a suitable date and time.</li>
+            <li><span>03</span>Receive an on-screen request confirmation.</li>
+          </ul>
+          <div class="emergency"><strong>Emergency?</strong><p>Do not use this form. Contact your local emergency service or go to the nearest emergency department.</p></div>
+        </div>
+
+        <div class="form-card reveal">
+          <form id="appointment-form" novalidate>
+            <div class="form-grid">
+              <div class="field full"><label for="full-name">Full name <span>*</span></label><input id="full-name" name="fullName" type="text" autocomplete="name" required placeholder="Enter your full name"><small class="error" data-error-for="full-name"></small></div>
+              <div class="field"><label for="phone">Phone number <span>*</span></label><input id="phone" name="phone" type="tel" autocomplete="tel" required placeholder="+91 98765 43210"><small class="error" data-error-for="phone"></small></div>
+              <div class="field"><label for="email">Email address <em>Optional</em></label><input id="email" name="email" type="email" autocomplete="email" placeholder="you@example.com"><small class="error" data-error-for="email"></small></div>
+              <div class="field"><label for="department">Department <span>*</span></label><select id="department" name="department" required><option value="">Select department</option><option>Cardiology</option><option>Neurology</option><option>Orthopedics</option><option>Pediatrics</option><option>General Medicine</option><option>Dental Care</option></select><small class="error" data-error-for="department"></small></div>
+              <div class="field"><label for="doctor">Preferred doctor</label><select id="doctor" name="doctor"><option>Any available doctor</option><option>Dr.N.Siddiq</option><option>Dr.Rubeeha Taj</option><option>Dr.Jaheda Begum</option><option>Dr.Vidhya</option><option>Dr.Manziya Khan</option><option>Dr.Umriya Khan</option></select><small class="error" data-error-for="doctor"></small></div>
+              <div class="field"><label for="date">Preferred date <span>*</span></label><input id="date" name="date" type="date" required><small class="error" data-error-for="date"></small></div>
+              <div class="field"><label for="time">Preferred time <span>*</span></label><select id="time" name="time" required><option value="">Select time</option><option>09:00 AM</option><option>10:00 AM</option><option>11:00 AM</option><option>12:00 PM</option><option>02:00 PM</option><option>03:00 PM</option><option>04:00 PM</option><option>05:00 PM</option></select><small class="error" data-error-for="time"></small></div>
+              <div class="field full"><label for="reason">Reason for visit <em>Optional</em></label><textarea id="reason" name="reason" rows="3" placeholder="Tell us briefly how we can help"></textarea><small class="error" data-error-for="reason"></small></div>
+            </div>
+            <button class="btn btn-primary submit-btn" type="submit">Submit appointment request <span>→</span></button>
+            <p class="form-note">Demo only: submitting this form does not book a real appointment or send patient data to the hospital.</p>
+          </form>
+
+          <div class="confirmation" id="confirmation" role="status" aria-live="polite" hidden>
+            <div class="confirmation-icon">✓</div>
+            <span class="eyebrow">REQUEST RECEIVED</span>
+            <h3>Appointment request prepared!</h3>
+            <p id="confirmation-text"></p>
+            <p class="demo-note"><strong>Demo notice:</strong> This request is not actually booked until confirmed by hospital staff. Do not enter sensitive medical or financial information into this demonstration website.</p>
+            <button class="btn btn-secondary" type="button" id="new-request">Make another request</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand"><span class="brand-mark">+</span><strong>SK HOSPITAL</strong></div>
+      <p>Compassionate care. Better health.</p>
+      <p>© <span id="current-year"></span> SK Hospital. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
